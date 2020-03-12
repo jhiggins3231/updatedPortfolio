@@ -3,6 +3,10 @@ import './home.css';
 import { makeStyles } from '@material-ui/core/styles';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import {useSpring, animated} from 'react-spring';
+
+
+
 
 const useStyles = makeStyles(theme => ({
     head: {
@@ -17,7 +21,7 @@ const useStyles = makeStyles(theme => ({
         position: 'absolute',
         left: '50px',
         fontSize: '30px',
-        cursor: 'grab'
+        cursor: 'grab',
     },
     bulletTwo: {
         fontFamily: 'Quicksand',
@@ -28,8 +32,8 @@ const useStyles = makeStyles(theme => ({
     },
     icons: {
         height: 75,
-        width: 75
-    }
+        width: 75,
+    } 
 }))
 
 

@@ -1,0 +1,3 @@
+.root:hover {
+    transform: rotateY(180deg);
+}

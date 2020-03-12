@@ -24,12 +24,13 @@ const useStyles = makeStyles(theme => ({
         maxWidth: 300,
         maxHeight: 320,
         margin: 5,
-        flex: '1'
+        flex: '1',
+        
       },
-      media: {
+    media: {
         height: 120,
       },
-      gridRoot: {
+    gridRoot: {
         flexGrow: 1,
       },
 }))
@@ -94,7 +95,7 @@ export default function Projects() {
                 />
         <CardContent>
             <Typography>
-                Pokemon API
+                Wishlist Generator
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
             A wishlist creator for specific motors for the Nissan 240sx.
@@ -115,7 +116,7 @@ export default function Projects() {
                 />
         <CardContent>
             <Typography>
-                Pokemon API
+                Project Database
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
             An application/project tracker for EFA Students.
