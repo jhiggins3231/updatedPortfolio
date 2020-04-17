@@ -8,7 +8,7 @@ const useStyles = makeStyles(theme => ({
     jumbo: {
         padding: 0,
         margin: 0,
-        backgroundColor: "#020202",
+        backgroundColor: "#3EFF8B",
         minHeight: 400,
         minWidth: '100%'
     },
@@ -23,15 +23,14 @@ const useStyles = makeStyles(theme => ({
     head: {
         padding: 0,
         margin: 0,
-        color: 'white',
+        color: '#FFFFFF',
         letterSpacing: '5px',
-        opacity: '0.5',
         position: "absolute",
         top: '50%',
         left: '50%',
         transform: 'translate(-50%, -150%)',
-        fontSize: '100px',
-        fontFamily: 'Sedgwick Ave Display'
+        fontSize: '80px',
+        fontFamily: 'Quicksand'
     }
 }))
 

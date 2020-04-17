@@ -21,7 +21,7 @@ body {
   position: absolute;
   will-change: transform;
   border-radius: 50%;
-  background: #009ddc;
+  background: white;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   opacity: 0.6;
 }
@@ -29,7 +29,7 @@ body {
 .hooks-main > div:nth-child(1) {
   width: 120px;
   height: 120px;
-  background: #00FFCD;
+  background: #F2EFE9;
 }
 
 .hooks-main > div:nth-child(2) {
@@ -40,7 +40,7 @@ body {
 .hooks-main > div:nth-child(3) {
   width: 100px;
   height: 100px;
-  background: #3e8989;
+  background: #D4D2D5;
 }
 
 .hooks-main {
