@@ -6,3 +6,9 @@
     font-family: 'Quicksand', sans-serif;
     src: local('Quicksand') url('../fonts/Quicksand-Light.ttf')
   }
+
+.bulletOne {
+    cursor: local('Sub') url('../assets/subpoint.cur') , auto;
+}
+    
+

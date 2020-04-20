@@ -5,6 +5,8 @@
     background:#FFFFFF;
     height: 50px;
     position: relative;
+    margin: 0;
+    padding: 0em;
   }
   .wave::before{
     content: "";
@@ -17,4 +19,8 @@
     background-size: 20px 20px;
     background-image:
       radial-gradient(circle at 10px -5px, transparent 12px,#00A8E8 13px);
+  }
+  @font-face {
+    font-family: 'Quicksand', sans-serif;
+    src: local('Quicksand') url('../fonts/Quicksand-Light.ttf')
   }

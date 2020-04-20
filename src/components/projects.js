@@ -30,7 +30,8 @@ const useStyles = makeStyles(theme => ({
         maxHeight: 320,
         margin: 5,
         flex: '1',
-        
+        borderRadius: '10%',  
+        boxShadow: '5px 5px 5px rgba(0, 38, 255, 0.801)'  
       },
     media: {
         height: 120,
@@ -44,8 +45,18 @@ const useStyles = makeStyles(theme => ({
         margin: 0,
         padding: 0,
         position: "absolute",
-        left: '30%',
-        top: '-35%',
+        left: '28%',
+        top: '-70%',
+    },
+    cardsTitle: {
+      fontFamily: 'Quicksand',
+      fontSize: '20px',
+      fontWeight: 'bold'
+    },
+    cards: {
+      fontFamily: 'Quicksand',
+      fontSize: '16px',
+      fontWeight: 'bold'
     }
 }))
 
@@ -69,10 +80,10 @@ export default function Projects() {
                 />
       </Tooltip>
         <CardContent>
-            <Typography>
+            <Typography className={classes.cardsTitle}>
                 My First Portfolio
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography variant="body2" color="textSecondary" component="p" className={classes.cards}>
             This was the first portfolio I created with React.
             </Typography>
         </CardContent>
@@ -93,10 +104,10 @@ export default function Projects() {
                 />
                 </Tooltip>
         <CardContent>
-            <Typography>
+            <Typography className={classes.cardsTitle}>
                 Pokemon API
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography variant="body2" color="textSecondary" component="p" className={classes.cards}>
             A simple Pokemon API made during my time at Eleven Fifty.
             </Typography>
         </CardContent>
@@ -116,11 +127,11 @@ export default function Projects() {
                />
                </Tooltip>
         <CardContent>
-            <Typography>
+            <Typography className={classes.cardsTitle}>
                 Wishlist Generator
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-            A wishlist creator for specific motors for the Nissan 240sx.
+            <Typography variant="body2" color="textSecondary" component="p" className={classes.cards}>
+            A Nissan 240sx wishlist generator for specific motors.
             </Typography>
         </CardContent>
       <CardActions>
@@ -139,10 +150,10 @@ export default function Projects() {
                 />
                 </Tooltip>
         <CardContent>
-            <Typography>
+            <Typography className={classes.cardsTitle}>
                 Project Database
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography variant="body2" color="textSecondary" component="p" className={classes.cards}>
             An application/project tracker for EFA Students.
             </Typography>
         </CardContent>
