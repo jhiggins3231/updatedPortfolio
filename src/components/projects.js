@@ -15,6 +15,7 @@ import Pokemon from '../assets/Pokemon.jpg';
 import P1150 from '../assets/p1150.jpg';
 import Nissan from '../assets/Nissan.jpg';
 import Periscope from '../assets/periscope.png';
+import Quiz from '../assets/quiz.jpeg';
 
 const useStyles = makeStyles(theme => ({
     main: {
@@ -66,7 +67,7 @@ export default function Projects() {
 
 
     return (
-        <div className={classes.main}>
+<div className={classes.main}>
           <div class="wave">
             <Avatar src={Periscope} className={classes.periscope}></Avatar>
           </div>
@@ -166,8 +167,32 @@ export default function Projects() {
       </CardActions>
     </Card>
 </Grid>
+<Grid container direction="row" justify="center" alignItems="baseline">
+        <Card className={classes.root}>
+          <Tooltip title="Portfolio">
+                <CardMedia
+                className={classes.media}
+                image={Quiz}
+                />
+      </Tooltip>
+        <CardContent>
+            <Typography className={classes.cardsTitle}>
+                A Quiz Maze
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p" className={classes.cards}>
+            A quiz I made about myself for family and friends.
+            </Typography>
+        </CardContent>
+        <CardActions>
+        <Tooltip title="View Project">
+        <Button size="small" color="primary" onClick={() => window.open('https://quizyou.herokuapp.com')}>
+          View
+        </Button>
+        </Tooltip>
+      </CardActions>
+    </Card>
+</Grid>
 
-
-        </div>
+</div>
     )
 }
