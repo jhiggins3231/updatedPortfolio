@@ -21,8 +21,8 @@ const useStyles = makeStyles(theme => ({
     main: {
         minWidth: '100%',
         backgroundColor: '#00A8E8',
-        minHeight: '200px',
-        maxHeight: '600px',
+        minHeight: '800px',
+        maxHeight: '1000px',
         fontFamily: 'Quicksand',
         fontSize: '20px'
     },
