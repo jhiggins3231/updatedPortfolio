@@ -169,7 +169,7 @@ export default function Projects() {
 </Grid>
 <Grid container direction="row" justify="center" alignItems="baseline">
         <Card className={classes.root}>
-          <Tooltip title="Portfolio">
+          <Tooltip title="QuizYou">
                 <CardMedia
                 className={classes.media}
                 image={Quiz}
