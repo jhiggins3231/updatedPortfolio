@@ -15,7 +15,7 @@ import Pokemon from '../assets/Pokemon.jpg';
 import P1150 from '../assets/p1150.jpg';
 import Nissan from '../assets/Nissan.jpg';
 import Periscope from '../assets/periscope.png';
-import Quiz from '../assets/quiz.jpeg';
+import Quiz from '../assets/quiz.jpg';
 
 const useStyles = makeStyles(theme => ({
     main: {
