@@ -132,7 +132,7 @@ export default function Home() {
         <Grid container spacing={2}>
             <Grid item xs={6} justify='center'>
         <p className={classes.about}>            
-    My name is James Higgins and I'm a Junior Developer and Navy Submarine Veteran. I am seeking a role within a team to not only continue to grow but to contribute to the overall team goal. I have strong team skills that I have gained throughout my career in the Navy and real world experiences. I have continued to expand upon my skill set by attending meet-ups, going through the Salesforce Pathfinder Program, and practicing upon the foundation of skills I have learned throughout my career.
+            Hello, my name is James Higgins and I'm a Salesforce Platform Developer and Navy Submarine Veteran. I am currently employed at 7Summits as a Platform Developer working on various Salesforce projects. I'm a strong believer in ownership and equality. There are five words that I believe describe me as a person and an employee. Those words are relator, responsibility, consistency, restorative, and achiever. I take pride in the work I do and believe it shows in the finished product.
         </p>
         </Grid>
         <Grid item xs={2} justify='center'>
@@ -164,11 +164,10 @@ export default function Home() {
                 <ul className={classes.skillset}>
                     <li>Salesforce Platform</li>
                     <li>Apex</li>
-                    <li>CRM</li>
-                    <li>VisualForce</li>
-                    <li>Lightning Apps</li>
+                    <li>Declarative Config</li>
                     <li>Trailhead</li>
                     <li>Visual Studio Code</li>
+                    <li>IntelliJ</li>
                 </ul>
 
         </Grid>
